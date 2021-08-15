@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS4</title>
+
+    <!-- BS4  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- MAIN CSS  -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- BaiTap1  -->
+        <div class="Homework my-5 px-3 py-3">
+            <h1>Bài tập 1</h1>
+            <div class="row">
+                <p class="col-6 my-3">Vui lòng nhập 3 số nguyên</p>
+                <div class="col-6 my-3">
+                    <div class="row">
+
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 1" id="Num1">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 2" id="Num2">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 3" id="Num3">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <p class="col-6 OUTPUTtext" id="OUTPUT__textHW1">Sắp xếp theo thứ tự tăng dần là: </p>
+                <div class="col-6">
+                    <p class="OUTPUT" id="Descen__HW1"></p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success my-4 button__HW" id="button__HW1">Kết quả</button>
+
+        </div>
+
+        <!-- BaiTap2  -->
+        <div class="Homework my-5 px-3 py-3">
+            <h1>Bài tập 2</h1>
+            <div class="row">
+                <p class="col-6 my-3">Ai đang dùng máy này</p>
+                <div class="col-6 my-3">
+
+                    <form>
+                        <input type="text" class="form-control" placeholder="Name" id="Name__HW2">
+                    </form>
+                </div>
+
+                <div class="col">
+                    <p class="OUTPUT" id="Res__HW2"></p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success my-4 button__HW" id="button__HW2">Kết quả</button>
+
+        </div>
+
+        <!-- BaiTap3  -->
+        <div class="Homework my-5 px-3 py-3">
+            <h1>Bài tập 3</h1>
+            <div class="row">
+                <p class="col-6 my-3">Vui lòng nhập 3 số nguyên</p>
+                <div class="col-6 my-3">
+                    <div class="row">
+
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 1" id="Num1__HW3">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 2" id="Num2__HW3">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Số 3" id="Num3__HW3">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <p class="col-6 OUTPUTtext" id="OUTPUT__textHW3">Trong 3 số có : </p>
+                <div class="col-6">
+                    <p class="OUTPUT" id="Res__HW3"></p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success my-4 button__HW" id="button__HW3">Kết quả</button>
+
+        </div>
+        <!-- BaiTap4  -->
+        <div class="Homework my-5 px-3 py-3">
+            <h1>Bài tập 4</h1>
+            <div class="row">
+                <p class="col-6 my-3">Vui lòng nhập 3 cạnh tam giác</p>
+                <div class="col-6 my-3">
+                    <div class="row">
+
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Cạnh 1" id="Num1__HW4">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Cạnh 2" id="Num2__HW4">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <input type="number" class="form-control" placeholder="Cạnh 3" id="Num3__HW4">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <p class="OUTPUT" id="Res__HW4"></p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success my-4 button__HW" id="button__HW4">Kết quả</button>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- JS  BS4 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- JS MAIN  -->
+    <script src="./JS/BT1.js"></script>
+    <script src="./JS/BT2.js"></script>
+    <script src="./JS/BT3.js"></script>
+    <script src="./JS/BT4.js"></script>
+</body>
+
+</html>
